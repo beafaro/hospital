@@ -21,7 +21,7 @@ public class Main {
 
         // Single table
         Consulta_Single cons1 = new Consulta_Single("desc", new Date());
-        Turno_Single turnoSingle1 = new Turno_Single("", "");
+        Turno_Single turnoSingle1 = new Turno_Single("aaaaaaaa", "bbb");
         Planta_Single plantaSingle1 = new Planta_Single();
         Enfermero_Single enf1 = new Enfermero_Single("12457896S", "125478964", "Lucia", "Rua Lopez Mora", "63987512");
         enf1.setConsulta(cons1);
