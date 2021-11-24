@@ -23,7 +23,7 @@ public class Main {
         Consulta_Single cons1 = new Consulta_Single("desc", new Date());
         Turno_Single turnoSingle1 = new Turno_Single("", "");
         Planta_Single plantaSingle1 = new Planta_Single();
-        Enfermero_Single enf1 = new Enfermero_Single();
+        Enfermero_Single enf1 = new Enfermero_Single("12457896S", "125478964", "Lucia", "Rua Lopez Mora", "63987512");
         enf1.setConsulta(cons1);
         cons1.setEnfermero(enf1);
         enf1.setTurno(turnoSingle1);

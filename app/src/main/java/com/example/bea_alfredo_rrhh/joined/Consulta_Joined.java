@@ -20,7 +20,7 @@ public class Consulta_Joined {
     private Enfermero_Joined enfermero;
 
     @ManyToOne
-    @JoinColumn(name="idplantaa")
+    @JoinColumn(name="idplanta")
     private Planta_Joined planta;
 
     public Consulta_Joined(String descripcion, Date fecha) {
